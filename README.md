@@ -16,3 +16,19 @@
 [![](https://komarev.com/ghpvc/?username=Darwin-1106&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<!-- Tiêu đề cho phần Ngôn ngữ lập trình -->
+### 💻 Programming Languages
+
+<!-- Dùng thẻ img chèn link từ skillicons.dev để tự động tạo khối icon -->
+<!-- Tham số 'i=' liệt kê các ngôn ngữ ngài dùng (php, java, js, html, css) cách nhau bằng dấu phẩy -->
+<img src="https://skillicons.dev/icons?i=php,java,js,html,css" alt="Programming Languages" />
+
+<!-- Thẻ br để tạo khoảng trống nhỏ trước khi sang phần tiếp theo -->
+<br>
+
+<!-- Tiêu đề cho phần Thư viện, Framework và Công cụ -->
+### 🛠 Libraries & Frameworks
+
+<!-- Tiếp tục thêm các icon cho hệ sinh thái công cụ: React, Node.js, Docker, Ubuntu, MongoDB, Nginx -->
+<!-- Ngài có thể thêm '&theme=light' hoặc '&theme=dark' ở cuối link nếu muốn cố định màu nền icon -->
+<img src="https://skillicons.dev/icons?i=react,nodejs,docker,ubuntu,mongodb,nginx" alt="Libraries and Tools" />
