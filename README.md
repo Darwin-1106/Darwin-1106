@@ -1,6 +1,6 @@
 <div align="center">
 
-# Xin chào, mình là Nguyễn Toàn 👋
+# Hi I'm Nguyen Toan 👋
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Full-stack+Developer;Magento+2+E-commerce+Enthusiast;Always+learning+something+new)](https://git.io/typing-svg)
 
