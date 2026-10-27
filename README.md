@@ -1,9 +1,5 @@
 <div align="center">
-
-# Hi I'm Nguyen Toan 👋
-
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Full-stack+Developer;Magento+2+E-commerce+Enthusiast;Always+learning+something+new)](https://git.io/typing-svg)
-
+  <img src="./header.svg" alt="Hi I'm Nguyen Toan - Full-stack Developer" width="100%" />
 </div>
 
 ---
@@ -12,13 +8,6 @@
 
 🔭 I’m currently working on: Full-stack web projects and Magento 2 e-commerce systems.<br>👯 I’m looking to collaborate on: software projects using Java, React, PHP, and Node.js.<br>🤝 I’m looking for help with: advanced knowledge of AWS cloud services and Docker.<br>🌱 I’m currently learning: Japanese (N5 level) and Linux/Ubuntu system administration.<br>💬 Ask me about: database design, web development, chess tactics, and F1 racing mechanics.<br>⚡ Fun fact: In my free time, I enjoy reading books, watching movies, or tuning into racing events.
 
-
-
-
-
-## 🌐 Socials:
-
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/nguyen.toan.22230) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/__ntoan/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/toàn-nguyễn-0886b935a?utm_source=share_via&utm_content=profile&utm_medium=member_ios) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nguyentoan062411@gmail.com) 
 
 
 
@@ -45,12 +34,14 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 
+## 🌐 Socials:
 
-### 🔝 Top Contributed Repo
-
-![](https://github-contributor-stats.vercel.app/api?username=Darwin-1106&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-
+<p align="center">
+  <a href="https://www.facebook.com/nguyen.toan.22230" target="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=facebook" height="48" alt="Facebook" /></a>&nbsp;
+  <a href="https://www.instagram.com/__ntoan/" target="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=instagram" height="48" alt="Instagram" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/to%C3%A0n-nguy%E1%BB%85n-0886b935a" target="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=linkedin" height="48" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:nguyentoan062411@gmail.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=gmail" height="48" alt="Email" /></a>
+</p>
 
 ---
 
