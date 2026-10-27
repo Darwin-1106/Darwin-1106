@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./header-v2.svg" alt="Hi I'm Nguyen Toan - Full-stack Developer" width="100%" />
+   <img src="./header-v2.svg?v=3" alt="Hi I'm Nguyen Toan - Full-stack Developer" width="100%" />
 </div>
 
 ---
