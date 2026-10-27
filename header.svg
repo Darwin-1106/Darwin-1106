@@ -24,53 +24,7 @@
 @keyframes run { to { stroke-dashoffset: -2069; } }
 .blink { animation: blink 1s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
-.clip, .cur { transform-box: view-box; }
-
-.c0 { transform-origin: 295.0px 0; animation: k0 12s linear 0s infinite; }
-@keyframes k0 {
-  0% { transform: scaleX(0); animation-timing-function: steps(20, end); }
-  12.5% { transform: scaleX(1); }
-  26.6% { transform: scaleX(1); animation-timing-function: steps(20, end); }
-  31.6%, 100% { transform: scaleX(0); }
-}
-.u0 { animation: m0 12s linear 0s infinite; }
-@keyframes m0 {
-  0% { transform: translateX(0); opacity: 1; animation-timing-function: steps(20, end); }
-  12.5% { transform: translateX(260px); }
-  26.6% { transform: translateX(260px); animation-timing-function: steps(20, end); }
-  31.6% { transform: translateX(0); opacity: 1; }
-  33.3%, 100% { transform: translateX(0); opacity: 0; }
-}
-.c1 { transform-origin: 223.5px 0; animation: k1 12s linear -8s infinite; }
-@keyframes k1 {
-  0% { transform: scaleX(0); animation-timing-function: steps(31, end); }
-  12.5% { transform: scaleX(1); }
-  26.6% { transform: scaleX(1); animation-timing-function: steps(31, end); }
-  31.6%, 100% { transform: scaleX(0); }
-}
-.u1 { animation: m1 12s linear -8s infinite; }
-@keyframes m1 {
-  0% { transform: translateX(0); opacity: 1; animation-timing-function: steps(31, end); }
-  12.5% { transform: translateX(403px); }
-  26.6% { transform: translateX(403px); animation-timing-function: steps(31, end); }
-  31.6% { transform: translateX(0); opacity: 1; }
-  33.3%, 100% { transform: translateX(0); opacity: 0; }
-}
-.c2 { transform-origin: 236.5px 0; animation: k2 12s linear -4s infinite; }
-@keyframes k2 {
-  0% { transform: scaleX(0); animation-timing-function: steps(29, end); }
-  12.5% { transform: scaleX(1); }
-  26.6% { transform: scaleX(1); animation-timing-function: steps(29, end); }
-  31.6%, 100% { transform: scaleX(0); }
-}
-.u2 { animation: m2 12s linear -4s infinite; }
-@keyframes m2 {
-  0% { transform: translateX(0); opacity: 1; animation-timing-function: steps(29, end); }
-  12.5% { transform: translateX(377px); }
-  26.6% { transform: translateX(377px); animation-timing-function: steps(29, end); }
-  31.6% { transform: translateX(0); opacity: 1; }
-  33.3%, 100% { transform: translateX(0); opacity: 0; }
-}</style>
+</style>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05060f"/><stop offset=".6" stop-color="#0b0a1f"/><stop offset="1" stop-color="#140c2b"/></linearGradient>
   <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
@@ -91,7 +45,7 @@
   <radialGradient id="halo"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#9ecbff" stop-opacity="0"/></radialGradient>
   <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#9ecbff" stop-opacity="0"/></linearGradient>
   <clipPath id="frame"><rect x="10" y="10" width="830" height="220" rx="18"/></clipPath>
-  <clipPath id="cp0"><rect class="clip c0" x="295.0" y="140" width="260" height="34"/></clipPath><clipPath id="cp1"><rect class="clip c1" x="223.5" y="140" width="403" height="34"/></clipPath><clipPath id="cp2"><rect class="clip c2" x="236.5" y="140" width="377" height="34"/></clipPath>
+  <clipPath id="cp0"><rect x="295.0" y="140" width="0" height="34"><animate attributeName="width" values="0;13;26;39;52;65;78;91;104;117;130;143;156;169;182;195;208;221;234;247;260;247;234;221;208;195;182;169;156;143;130;117;104;91;78;65;52;39;26;13;0" keyTimes="0.0000;0.0062;0.0125;0.0187;0.0250;0.0312;0.0375;0.0438;0.0500;0.0563;0.0625;0.0687;0.0750;0.0813;0.0875;0.0938;0.1000;0.1062;0.1125;0.1188;0.1250;0.2692;0.2717;0.2742;0.2767;0.2792;0.2817;0.2842;0.2867;0.2892;0.2917;0.2942;0.2967;0.2992;0.3017;0.3042;0.3067;0.3092;0.3117;0.3142;0.3167" calcMode="discrete" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath><clipPath id="cp1"><rect x="223.5" y="140" width="0" height="34"><animate attributeName="width" values="0;13;26;39;52;65;78;91;104;117;130;143;156;169;182;195;208;221;234;247;260;273;286;299;312;325;338;351;364;377;390;403;390;377;364;351;338;325;312;299;286;273;260;247;234;221;208;195;182;169;156;143;130;117;104;91;78;65;52;39;26;13;0" keyTimes="0.0000;0.0040;0.0081;0.0121;0.0161;0.0202;0.0242;0.0282;0.0323;0.0363;0.0403;0.0444;0.0484;0.0524;0.0565;0.0605;0.0645;0.0685;0.0726;0.0766;0.0806;0.0847;0.0887;0.0927;0.0968;0.1008;0.1048;0.1089;0.1129;0.1169;0.1210;0.1250;0.2683;0.2699;0.2715;0.2731;0.2747;0.2763;0.2780;0.2796;0.2812;0.2828;0.2844;0.2860;0.2876;0.2892;0.2909;0.2925;0.2941;0.2957;0.2973;0.2989;0.3005;0.3022;0.3038;0.3054;0.3070;0.3086;0.3102;0.3118;0.3134;0.3151;0.3167" calcMode="discrete" dur="12s" begin="-8s" repeatCount="indefinite"/></rect></clipPath><clipPath id="cp2"><rect x="236.5" y="140" width="0" height="34"><animate attributeName="width" values="0;13;26;39;52;65;78;91;104;117;130;143;156;169;182;195;208;221;234;247;260;273;286;299;312;325;338;351;364;377;364;351;338;325;312;299;286;273;260;247;234;221;208;195;182;169;156;143;130;117;104;91;78;65;52;39;26;13;0" keyTimes="0.0000;0.0043;0.0086;0.0129;0.0172;0.0216;0.0259;0.0302;0.0345;0.0388;0.0431;0.0474;0.0517;0.0560;0.0603;0.0647;0.0690;0.0733;0.0776;0.0819;0.0862;0.0905;0.0948;0.0991;0.1034;0.1078;0.1121;0.1164;0.1207;0.1250;0.2684;0.2701;0.2718;0.2736;0.2753;0.2770;0.2787;0.2805;0.2822;0.2839;0.2856;0.2874;0.2891;0.2908;0.2925;0.2943;0.2960;0.2977;0.2994;0.3011;0.3029;0.3046;0.3063;0.3080;0.3098;0.3115;0.3132;0.3149;0.3167" calcMode="discrete" dur="12s" begin="-4s" repeatCount="indefinite"/></rect></clipPath>
   <radialGradient id="p-mercury" cx=".35" cy=".35" r=".75"><stop offset="0" stop-color="#d6d3d1"/><stop offset="1" stop-color="#78716c"/></radialGradient><path id="o-mercury" d="M692,122 a30,10.799999999999999 0 1,0 60,0 a30,10.799999999999999 0 1,0 -60,0"/><radialGradient id="p-venus" cx=".35" cy=".35" r=".75"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#c2884a"/></radialGradient><path id="o-venus" d="M682,122 a40,14.399999999999999 0 1,0 80,0 a40,14.399999999999999 0 1,0 -80,0"/><radialGradient id="p-earth" cx=".35" cy=".35" r=".75"><stop offset="0" stop-color="#93c5fd"/><stop offset="1" stop-color="#1d4ed8"/></radialGradient><path id="o-earth" d="M671,122 a51,18.36 0 1,0 102,0 a51,18.36 0 1,0 -102,0"/><radialGradient id="p-mars" cx=".35" cy=".35" r=".75"><stop offset="0" stop-color="#fca5a5"/><stop offset="1" stop-color="#b4411f"/></radialGradient><path id="o-mars" d="M661,122 a61,21.96 0 1,0 122,0 a61,21.96 0 1,0 -122,0"/><radialGradient id="p-jupiter" cx=".35" cy=".35" r=".75"><stop offset="0" stop-color="#f5d0a9"/><stop offset="1" stop-color="#a86b3c"/></radialGradient><path id="o-jupiter" d="M648,122 a74,26.64 0 1,0 148,0 a74,26.64 0 1,0 -148,0"/><radialGradient id="p-saturn" cx=".35" cy=".35" r=".75"><stop offset="0" stop-color="#fef3c7"/><stop offset="1" stop-color="#c9a25e"/></radialGradient><path id="o-saturn" d="M635,122 a87,31.32 0 1,0 174,0 a87,31.32 0 1,0 -174,0"/><radialGradient id="p-uranus" cx=".35" cy=".35" r=".75"><stop offset="0" stop-color="#cffafe"/><stop offset="1" stop-color="#38bdf8"/></radialGradient><path id="o-uranus" d="M624,122 a98,35.28 0 1,0 196,0 a98,35.28 0 1,0 -196,0"/><radialGradient id="p-neptune" cx=".35" cy=".35" r=".75"><stop offset="0" stop-color="#a5b4fc"/><stop offset="1" stop-color="#3b4fe0"/></radialGradient><path id="o-neptune" d="M614,122 a108,38.879999999999995 0 1,0 216,0 a108,38.879999999999995 0 1,0 -216,0"/><clipPath id="back"><rect x="0" y="0" width="850" height="122"/></clipPath><clipPath id="front"><rect x="0" y="122" width="850" height="240"/></clipPath><radialGradient id="sun"><stop offset="0" stop-color="#fffbea"/><stop offset=".45" stop-color="#fde047"/><stop offset="1" stop-color="#f97316"/></radialGradient><radialGradient id="corona"><stop offset="0" stop-color="#fbbf24" stop-opacity=".75"/><stop offset=".45" stop-color="#f97316" stop-opacity=".25"/><stop offset="1" stop-color="#f97316" stop-opacity="0"/></radialGradient>
 </defs>
 <g clip-path="url(#frame)">
@@ -111,5 +65,5 @@
 <rect x="10" y="10" width="830" height="220" rx="18" fill="none" stroke="url(#border)" stroke-width="2" stroke-opacity=".55"/>
 <rect class="run" x="10" y="10" width="830" height="220" rx="18" fill="none" stroke="url(#border)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
 <text class="title" x="425.0" y="102" text-anchor="middle" fill="url(#tg)">Hi I'm Nguyen Toan 👋</text>
-<text class="type" x="295.0" y="164" textLength="260" lengthAdjust="spacingAndGlyphs" clip-path="url(#cp0)">Full-stack Developer</text><g class="cur u0"><rect class="blink" x="296.0" y="144" width="3" height="25" rx="1" fill="#61DAFB"/></g><text class="type" x="223.5" y="164" textLength="403" lengthAdjust="spacingAndGlyphs" clip-path="url(#cp1)">Magento 2 E-commerce Enthusiast</text><g class="cur u1"><rect class="blink" x="224.5" y="144" width="3" height="25" rx="1" fill="#61DAFB"/></g><text class="type" x="236.5" y="164" textLength="377" lengthAdjust="spacingAndGlyphs" clip-path="url(#cp2)">Always learning something new</text><g class="cur u2"><rect class="blink" x="237.5" y="144" width="3" height="25" rx="1" fill="#61DAFB"/></g>
+<text class="type" x="295.0" y="164" textLength="260" lengthAdjust="spacingAndGlyphs" clip-path="url(#cp0)">Full-stack Developer</text><g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0;0.3333" calcMode="discrete" dur="12s" begin="0s" repeatCount="indefinite"/><rect class="blink" x="296.0" y="144" width="3" height="25" rx="1" fill="#61DAFB"><animate attributeName="x" values="296.0;309.0;322.0;335.0;348.0;361.0;374.0;387.0;400.0;413.0;426.0;439.0;452.0;465.0;478.0;491.0;504.0;517.0;530.0;543.0;556.0;543.0;530.0;517.0;504.0;491.0;478.0;465.0;452.0;439.0;426.0;413.0;400.0;387.0;374.0;361.0;348.0;335.0;322.0;309.0;296.0" keyTimes="0.0000;0.0062;0.0125;0.0187;0.0250;0.0312;0.0375;0.0438;0.0500;0.0563;0.0625;0.0687;0.0750;0.0813;0.0875;0.0938;0.1000;0.1062;0.1125;0.1188;0.1250;0.2692;0.2717;0.2742;0.2767;0.2792;0.2817;0.2842;0.2867;0.2892;0.2917;0.2942;0.2967;0.2992;0.3017;0.3042;0.3067;0.3092;0.3117;0.3142;0.3167" calcMode="discrete" dur="12s" begin="0s" repeatCount="indefinite"/></rect></g><text class="type" x="223.5" y="164" textLength="403" lengthAdjust="spacingAndGlyphs" clip-path="url(#cp1)">Magento 2 E-commerce Enthusiast</text><g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0;0.3333" calcMode="discrete" dur="12s" begin="-8s" repeatCount="indefinite"/><rect class="blink" x="224.5" y="144" width="3" height="25" rx="1" fill="#61DAFB"><animate attributeName="x" values="224.5;237.5;250.5;263.5;276.5;289.5;302.5;315.5;328.5;341.5;354.5;367.5;380.5;393.5;406.5;419.5;432.5;445.5;458.5;471.5;484.5;497.5;510.5;523.5;536.5;549.5;562.5;575.5;588.5;601.5;614.5;627.5;614.5;601.5;588.5;575.5;562.5;549.5;536.5;523.5;510.5;497.5;484.5;471.5;458.5;445.5;432.5;419.5;406.5;393.5;380.5;367.5;354.5;341.5;328.5;315.5;302.5;289.5;276.5;263.5;250.5;237.5;224.5" keyTimes="0.0000;0.0040;0.0081;0.0121;0.0161;0.0202;0.0242;0.0282;0.0323;0.0363;0.0403;0.0444;0.0484;0.0524;0.0565;0.0605;0.0645;0.0685;0.0726;0.0766;0.0806;0.0847;0.0887;0.0927;0.0968;0.1008;0.1048;0.1089;0.1129;0.1169;0.1210;0.1250;0.2683;0.2699;0.2715;0.2731;0.2747;0.2763;0.2780;0.2796;0.2812;0.2828;0.2844;0.2860;0.2876;0.2892;0.2909;0.2925;0.2941;0.2957;0.2973;0.2989;0.3005;0.3022;0.3038;0.3054;0.3070;0.3086;0.3102;0.3118;0.3134;0.3151;0.3167" calcMode="discrete" dur="12s" begin="-8s" repeatCount="indefinite"/></rect></g><text class="type" x="236.5" y="164" textLength="377" lengthAdjust="spacingAndGlyphs" clip-path="url(#cp2)">Always learning something new</text><g opacity="0"><animate attributeName="opacity" values="1;0" keyTimes="0;0.3333" calcMode="discrete" dur="12s" begin="-4s" repeatCount="indefinite"/><rect class="blink" x="237.5" y="144" width="3" height="25" rx="1" fill="#61DAFB"><animate attributeName="x" values="237.5;250.5;263.5;276.5;289.5;302.5;315.5;328.5;341.5;354.5;367.5;380.5;393.5;406.5;419.5;432.5;445.5;458.5;471.5;484.5;497.5;510.5;523.5;536.5;549.5;562.5;575.5;588.5;601.5;614.5;601.5;588.5;575.5;562.5;549.5;536.5;523.5;510.5;497.5;484.5;471.5;458.5;445.5;432.5;419.5;406.5;393.5;380.5;367.5;354.5;341.5;328.5;315.5;302.5;289.5;276.5;263.5;250.5;237.5" keyTimes="0.0000;0.0043;0.0086;0.0129;0.0172;0.0216;0.0259;0.0302;0.0345;0.0388;0.0431;0.0474;0.0517;0.0560;0.0603;0.0647;0.0690;0.0733;0.0776;0.0819;0.0862;0.0905;0.0948;0.0991;0.1034;0.1078;0.1121;0.1164;0.1207;0.1250;0.2684;0.2701;0.2718;0.2736;0.2753;0.2770;0.2787;0.2805;0.2822;0.2839;0.2856;0.2874;0.2891;0.2908;0.2925;0.2943;0.2960;0.2977;0.2994;0.3011;0.3029;0.3046;0.3063;0.3080;0.3098;0.3115;0.3132;0.3149;0.3167" calcMode="discrete" dur="12s" begin="-4s" repeatCount="indefinite"/></rect></g>
 </svg>
