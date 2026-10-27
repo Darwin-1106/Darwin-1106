@@ -40,9 +40,4 @@
   <a href="mailto:nguyentoan062411@gmail.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=gmail" height="48" alt="Email" /></a>
 </p>
 
----
-
-
-
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
