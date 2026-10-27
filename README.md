@@ -29,11 +29,6 @@
   <img src="https://streak-stats.demolab.com/?user=Darwin-1106&background=135,070818,1e1040&border=6D5BD0&stroke=A78BFA&ring=61DAFB&fire=F472B6&currStreakNum=FFFFFF&sideNums=61DAFB&currStreakLabel=F472B6&sideLabels=E2E8F0&dates=A78BFA&border_radius=14" alt="GitHub Streak" />
 </div>
 
-### ✍️ Random Dev Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
-</div>
 
 
 ## 🌐 Socials:
