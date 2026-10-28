@@ -22,8 +22,6 @@
 # 📊 GitHub Stats:
 
 <div align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=Darwin-1106&show_icons=true&card_width=495&bg_color=135,070818,1e1040&title_color=61DAFB&text_color=E2E8F0&icon_color=F472B6&ring_color=61DAFB&border_color=6D5BD0&border_radius=14" alt="GitHub Stats" />
-  <br/><br/>
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Darwin-1106&layout=compact&card_width=495&bg_color=135,070818,1e1040&title_color=61DAFB&text_color=E2E8F0&border_color=6D5BD0&border_radius=14" alt="Top Languages" />
   <br/><br/>
   <img src="https://streak-stats.demolab.com/?user=Darwin-1106&background=135,070818,1e1040&border=6D5BD0&stroke=A78BFA&ring=61DAFB&fire=F472B6&currStreakNum=FFFFFF&sideNums=61DAFB&currStreakLabel=F472B6&sideLabels=E2E8F0&dates=A78BFA&border_radius=14" alt="GitHub Streak" />
