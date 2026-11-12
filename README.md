@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/Darwin-1106">
-    <img src="https://go-skill-icons.vercel.app/api/icons?i=html,css,js,c,java,php,nodejs,react,reactnative,reactrouter,bootstrap,mysql,mongodb,nginx,tomcat,aws,docker,git,github,gitlab,jira&perline=11" alt="Tech Stack" />
+    <img src="./profile/icons/tech-stack.svg" alt="Tech Stack" />
   </a>
 </p>
 
@@ -32,10 +32,10 @@
 ## 🌐 Socials:
 
 <p align="center">
-  <a href="https://www.facebook.com/nguyen.toan.22230" target="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=facebook" height="48" alt="Facebook" /></a>&nbsp;
-  <a href="https://www.instagram.com/__ntoan/" target="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=instagram" height="48" alt="Instagram" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/to%C3%A0n-nguy%E1%BB%85n-0886b935a/" target="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=linkedin" height="48" alt="LinkedIn" /></a>&nbsp;
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nguyentoan062411@gmail.com" target="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=gmail" height="48" alt="Email" /></a>
+  <a href="https://www.facebook.com/nguyen.toan.22230" target="_blank"><img src="./profile/icons/facebook.svg" height="48" alt="Facebook" /></a>&nbsp;
+  <a href="https://www.instagram.com/__ntoan/" target="_blank"><img src="./profile/icons/instagram.svg" height="48" alt="Instagram" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/to%C3%A0n-nguy%E1%BB%85n-0886b935a/" target="_blank"><img src="./profile/icons/linkedin.svg" height="48" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nguyentoan062411@gmail.com" target="_blank"><img src="./profile/icons/gmail.svg" height="48" alt="Email" /></a>
 </p>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
